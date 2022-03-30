@@ -7,7 +7,7 @@
     --hover-button : hsl(217, 12%, 63%);
     --card-color : hsl(213, 19%, 18%);
     --main-background : hsl(216, 12%, 8%);
-    --font-size-p : 1rem;
+    --font-size-p : 0.9rem;
     --font-family : 'Overpass', sans-serif;
 }
 
@@ -17,8 +17,7 @@ body{
 }
 .big-container {
     margin-left: 1vw;
-    margin-top: 22vh;
-    font-size: var(--font-size-p);    
+    margin-top: 22vh; 
 }
 .container {
     width: 90vw;
@@ -27,24 +26,70 @@ body{
       border-radius: 20px 20px;  
 }
 .img-logo {
-    position: absolute;
+    position: fixed;
+    margin-top: 5vh;
+    margin-left: 8vw;
+    background-color: hsla(220, 8%, 79%, 0.137);
+    border-radius: 100%;
+    padding: 3%;
 }
+
 .text-card{
-    padding: 6%;
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-top: 8%;
 }
 
 h1 {
     color: var(--white);
     font-family: var(--font-family);
+    font-size: 1.5rem;
     font-weight: 700;
+    margin-top: 10vh;
 }
-p{
+h2{
     color: var(--paragraph-color);
-
+    font-size: var(--font-size-p);   
     font-family: var(--font-family);
     font-weight: 400;
 }
 .numbers-box{
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    font-size: 700;
+    width: 86vw;
+    margin-left: 2vw;
+}
+
+p {
+    width: 40px;
+    height: 40px;
+    background-color: hsla(220, 8%, 79%, 0.137);
+    font-weight: 700;
+    color: var(--paragraph-color);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    width: 70vw;
+    height: 6vh;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-family: var(--font-family);
+    font-weight: 400;
+    border-bottom-left-radius : 30px;
+    border-bottom-right-radius : 30px;
+    border-top-left-radius : 30px;
+    border-top-right-radius : 30px;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 1vh;
+    margin-left: 10vw;
+    border: var(--primary-color) solid;
+}
+.attribution {
+    color: var(--white);
 }
