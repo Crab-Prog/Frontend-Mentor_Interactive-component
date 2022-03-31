@@ -1,4 +1,3 @@
-const btn1 = document.querySelector("#btn1");
 btn1.addEventListener("click", function onClick(){
     btn1.style.backgroundColor = 'hsl(25, 97%, 53%)';
     btn1.style.color = 'var(--white)';
@@ -8,7 +7,7 @@ btn1.addEventListener("click", function onClick(){
     btn4.style.display = "hidden";
     btn5.style.display = "hidden";
     const selectNumbers = document.querySelector(".selectNumbers");
-    selectNumbers.innerHTML = btn1.value;
+    selectNumbers.innerHTML = `You selected ${btn1.value} out of 5`;
 })
 const btn2 = document.querySelector("#btn2");
 btn2.addEventListener("click", function onClick(){
@@ -20,7 +19,7 @@ btn2.addEventListener("click", function onClick(){
     btn4.style.display = "hidden";
     btn5.style.display = "hidden";
     const selectNumbers = document.querySelector(".selectNumbers");
-    selectNumbers.innerHTML = btn2.value;
+    selectNumbers.innerHTML = `You selected ${btn2.value} out of 5`;
 })
 const btn3 = document.querySelector("#btn3");
 btn3.addEventListener("click", function onClick(){
@@ -32,7 +31,7 @@ btn3.addEventListener("click", function onClick(){
     btn4.style.display = "hidden";
     btn5.style.display = "hidden";
     const selectNumbers = document.querySelector(".selectNumbers");
-    selectNumbers.innerHTML = btn3.value;
+    selectNumbers.innerHTML = `You selected ${btn3.value} out of 5`;
 })
 const btn4 = document.querySelector("#btn4");
 btn4.addEventListener("click", function onClick(){
@@ -44,7 +43,7 @@ btn4.addEventListener("click", function onClick(){
     btn4.style.display = "block";
     btn5.style.display = "hidden";
     const selectNumbers = document.querySelector(".selectNumbers");
-    selectNumbers.innerHTML = btn4.value;
+    selectNumbers.innerHTML = `You selected ${btn4.value} out of 5`;
 })
 const btn5 = document.querySelector("#btn5");
 btn5.addEventListener("click", function onClick(){
@@ -56,8 +55,9 @@ btn5.addEventListener("click", function onClick(){
     btn4.style.display = "hidden";
     btn5.style.display = "block";
     const selectNumbers = document.querySelector(".selectNumbers");
-    selectNumbers.innerHTML = btn5.value;
+    selectNumbers.innerHTML = `You selected ${btn5.value} out of 5`;
 })
+
 const container = document.querySelector(".container");
 const thankCard = document.querySelector(".thank-card");
 const button = document.querySelector(".button");
@@ -65,4 +65,3 @@ button.addEventListener("click", function onClick(){
     container.style.display = "none";
     thankCard.style.display = "flex";
 })
-

@@ -13,22 +13,23 @@
 
 body{
     background-color: var(--main-background);
+    width: 375px;
 }
 .big-container {
-    margin-left: 1vw;
-    margin-top: 22vh; 
+    margin-left: 1%;
+    margin-top: 22vh;
+    width: 96%;
 }
 .container {
-    width: 90vw;
     margin: 2%;
     background-color: var(--card-color);
     border-radius: 20px 20px;
     display: block;
 }
 .img-logo {
-    position: fixed;
+    position: inherit;
     margin-top: 5vh;
-    margin-left: 8vw;
+    margin-left: 10%;
     background-color: hsla(220, 8%, 79%, 0.137);
     border-radius: 100%;
     padding: 3%;
@@ -37,7 +38,6 @@ body{
 .text-card{
     padding-right: 8%;
     padding-left: 8%;
-    padding-top: 8%;
 }
 
 h1 {
@@ -45,7 +45,6 @@ h1 {
     font-family: var(--font-family);
     font-size: 1.5rem;
     font-weight: 700;
-    margin-top: 10vh;
 }
 h2{
     color: var(--paragraph-color);
@@ -58,8 +57,8 @@ h2{
     justify-content: space-around;
     text-align: center;
     font-size: 700;
-    width: 86vw;
-    margin-left: 2vw;
+    width: 90%;
+    margin-left: 6%;
 }
 
 .numbers-box .btn:hover{
@@ -81,7 +80,7 @@ h2{
     align-items: center;
 }
 .button {
-    width: 70vw;
+    width: 80%;
     height: 6vh;
     background-color: var(--primary-color);
     color: var(--white);
@@ -93,8 +92,8 @@ h2{
     border-top-right-radius : 30px;
     text-align: center;
     margin-bottom: 10%;
+    margin-left: 8%;
     margin-top: 3vh;
-    margin-left: 10vw;
     border: var(--primary-color) solid;
 }
 .btn1,
@@ -109,13 +108,14 @@ h2{
     background-color: var(--white);
     color: var(--primary-color);
     border: var(--white);
+    cursor: pointer;
 }
 .attribution {
     color: var(--white);
 }
 
 .thank-card {
-    width: 90vw;
+    width: 96%;
     margin: 2%;
     background-color: var(--card-color);
     border-radius: 20px 20px;
@@ -128,7 +128,7 @@ h2{
     margin: 8%;
 }
 .paragraph {
-    width: 45vw;
+    width: 60%;
     height: 5vh;
     color: var(--primary-color);
     font-size: var(--font-size-p);   
@@ -155,8 +155,26 @@ p{
     color: var(--paragraph-color);
     font-size: var(--font-size-p);   
     font-family: var(--font-family);
-    width: 80vw;
+    width: 85%;
     margin-bottom: 10%;
     margin-top: 1vh;
     text-align: center;
+}
+em {
+    color: hsla(220, 8%, 79%, 0);
+    background-color: hsla(220, 8%, 79%, 0);
+}
+
+@media screen and (min-width : 1440px){
+    body{ 
+        width: 375px;
+        margin-left: 40%;
+    }
+    .numbers-box{
+        width: 300px;
+    }
+    .button {
+        width: 300px;
+    }
+
 }
