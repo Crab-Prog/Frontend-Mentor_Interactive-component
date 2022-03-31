@@ -12,7 +12,6 @@
 }
 
 body{
-
     background-color: var(--main-background);
 }
 .big-container {
@@ -23,7 +22,8 @@ body{
     width: 90vw;
     margin: 2%;
     background-color: var(--card-color);
-      border-radius: 20px 20px;  
+    border-radius: 20px 20px;
+    display: block;
 }
 .img-logo {
     position: fixed;
@@ -62,13 +62,20 @@ h2{
     margin-left: 2vw;
 }
 
-p {
+.numbers-box .btn:hover{
+    background-color: var(--paragraph-color);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.btn {
     width: 40px;
     height: 40px;
     background-color: hsla(220, 8%, 79%, 0.137);
     font-weight: 700;
     color: var(--paragraph-color);
     border-radius: 100%;
+    border: solid var(--card-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,6 +97,68 @@ p {
     margin-left: 10vw;
     border: var(--primary-color) solid;
 }
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5 {
+    display: block;
+}
+
+.button:hover {
+    background-color: var(--white);
+    color: var(--primary-color);
+    border: var(--white);
+}
 .attribution {
     color: var(--white);
+}
+
+.thank-card {
+    display: block;
+    width: 90vw;
+    margin: 2%;
+    background-color: var(--card-color);
+    border-radius: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.img-thank {
+    width: 150px;
+    margin: 8%;
+}
+.paragraph {
+    width: 45vw;
+    height: 5vh;
+    color: var(--primary-color);
+    font-size: var(--font-size-p);   
+    font-family: var(--font-family);
+    font-weight: 300;
+    background-color: hsla(220, 8%, 79%, 0.137);
+    border-bottom-left-radius : 30px;
+    border-bottom-right-radius : 30px;
+    border-top-left-radius : 30px;
+    border-top-right-radius : 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thanks {
+    margin-top: 2vh;
+    color: var(--white);
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p{
+    color: var(--paragraph-color);
+    font-size: var(--font-size-p);   
+    font-family: var(--font-family);
+    width: 80vw;
+    margin-bottom: 10%;
+    margin-top: 1vh;
+    text-align: center;
 }

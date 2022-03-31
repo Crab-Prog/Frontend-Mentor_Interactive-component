@@ -32,37 +32,42 @@
   <!-- Rating state start -->
   <div class="big-container">
     <div class="container">
-      <img src="./images/icon-star.svg" alt="" class="img-logo">
-      <div class="text-card">
-        <h1>How did we do?</h1>
-        <h2>Please let us know how we did with your support request. All feedback is appreciated
-          to help us improve our offering!
-        </h2>
-      </div>
-      <div class="numbers-box">
-        <p>1</p>
-        <p>2</p>
-        <p>3</p>
-        <p>4</p>
-        <p>5</p>
-      </div>
-      <div>
-        <button type="button" class="button">SUBMIT</button>
+      <div class="firstCard">
+        <img src="./images/icon-star.svg" alt="" class="img-logo">
+        <div class="text-card">
+          <h1>How did we do?</h1>
+          <h2>Please let us know how we did with your support request. All feedback is appreciated
+            to help us improve our offering!
+          </h2>
+        </div>
+        <div class="numbers-box">
+          <button class="btn" id="btn1" onClick()>1</button>
+          <button class="btn" id="btn2" onClick()>2</button>
+          <button class="btn" id="btn3" onClick()>3</button>
+          <button class="btn" id="btn4" onClick()>4</button>
+          <button class="btn" id="btn5" onClick()>5</button>
+        </div>
+        <div>
+          <button type="button" class="button" onClick()>SUBMIT</button>
+        </div>
       </div>
     </div>
   </div>
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
+  <div class="thank-card">
 
-  You selected
-  <!-- Add rating here --> out of 5
+      <img src="./images/illustration-thank-you.svg" alt="" class="img-thank">
+      <div class="paragraph">You selected
+        <!-- Add rating here --> out of 5
+      </div>
 
-  Thank you!
+    <div class="thanks">Thank you!</div>
 
-  We appreciate you taking the time to give a rating. If you ever need more support,
-  don’t hesitate to get in touch!
-
+    <p>We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!</p>
+  </div>
   <!-- Thank you state end -->
 
 
@@ -70,7 +75,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/Crab-Prog">Ophélie Coudert</a>.
   </div>
-  <script src="./assets/javascript/discography.js"></script>
+  <script src="./index.js"></script>
 </body>
 
 </html>
