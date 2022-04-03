@@ -1,5 +1,5 @@
 btn1.addEventListener("click", function onClick(){
-    btn1.style.backgroundColor = 'hsl(25, 97%, 53%)';
+    btn1.style.backgroundColor = 'var(--paragraph-color)';
     btn1.style.color = 'var(--white)';
     btn1.style.display = "block";
     btn2.style.display = "hidden";
@@ -11,7 +11,7 @@ btn1.addEventListener("click", function onClick(){
 })
 const btn2 = document.querySelector("#btn2");
 btn2.addEventListener("click", function onClick(){
-    btn2.style.backgroundColor = 'hsl(25, 97%, 53%)';
+    btn2.style.backgroundColor = 'var(--paragraph-color)';
     btn2.style.color = 'var(--white)';
     btn1.style.display = "hidden";
     btn2.style.display = "block";
@@ -23,7 +23,7 @@ btn2.addEventListener("click", function onClick(){
 })
 const btn3 = document.querySelector("#btn3");
 btn3.addEventListener("click", function onClick(){
-    btn3.style.backgroundColor = 'hsl(25, 97%, 53%)';
+    btn3.style.backgroundColor = 'var(--paragraph-color)';
     btn3.style.color = 'var(--white)';
     btn1.style.display = "hidden";
     btn2.style.display = "hidden";
@@ -35,7 +35,7 @@ btn3.addEventListener("click", function onClick(){
 })
 const btn4 = document.querySelector("#btn4");
 btn4.addEventListener("click", function onClick(){
-    btn4.style.backgroundColor = 'hsl(25, 97%, 53%)';
+    btn4.style.backgroundColor = 'var(--paragraph-color)';
     btn4.style.color = 'var(--white)';
     btn1.style.display = "hidden";
     btn2.style.display = "hidden";
@@ -47,7 +47,7 @@ btn4.addEventListener("click", function onClick(){
 })
 const btn5 = document.querySelector("#btn5");
 btn5.addEventListener("click", function onClick(){
-    btn5.style.backgroundColor = 'hsl(25, 97%, 53%)';
+    btn5.style.backgroundColor = 'var(--paragraph-color)';
     btn5.style.color = 'var(--white)';
     btn1.style.display = "hidden";
     btn2.style.display = "hidden";
